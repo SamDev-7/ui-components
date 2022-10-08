@@ -19,7 +19,7 @@
 >
 	<!-- Navbar Brand -->
 	<div class="flex my-auto text-blue-600 dark:text-blue-400 -2xs:hidden">
-		<a rel="noopener"class="flex" href="/" on:click={(event) => scrollToHome(event)}>
+		<a rel="noopener"class="flex" href="/">
 			<svg
 				class="-mt-0.5"
 				xmlns="http://www.w3.org/2000/svg"
