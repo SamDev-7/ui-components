@@ -19,7 +19,7 @@
 >
 	<!-- Navbar Brand -->
 	<div class="flex my-auto text-blue-600 dark:text-blue-400 -2xs:hidden">
-		<a rel="noopener"class="flex" href="/">
+		<a rel="noopener"class="flex" href="//saml.is-a.dev">
 			<svg
 				class="-mt-0.5"
 				xmlns="http://www.w3.org/2000/svg"
