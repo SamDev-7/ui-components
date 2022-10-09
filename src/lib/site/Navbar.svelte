@@ -11,15 +11,16 @@
 			localStorage.theme = 'light';
 		}
 	}
+	
 </script>
 
 <!-- Navbar -->
 <nav
-	class="sticky top-0 z-30 flex h-16 transition-shadow sm:px-16 2xs:-sm:px-8 -2xs:px-0 bg-white dark:bg-slate-900 {$scroll > 5 ? 'shadow' : ''}"
+	class="sticky top-0 z-30 flex h-16 transition sm:px-16 2xs:-sm:px-8 -2xs:px-0 {$scroll > 5 ? 'bg-white dark:bg-slate-900' : ''}  {$scroll > 5 ? 'shadow' : ''}"
 >
 	<!-- Navbar Brand -->
-	<div class="flex my-auto text-blue-600 dark:text-blue-400 -2xs:hidden">
-		<a data-sveltekit-reload rel="noopener" class="flex" href="//saml.is-a.dev">
+	<div class="flex my-auto text-blue-600 dark:text-blue-300 -2xs:hidden">
+		<a class="flex" href="https://samliu.dev">
 			<svg
 				class="-mt-0.5"
 				xmlns="http://www.w3.org/2000/svg"
@@ -43,16 +44,18 @@
 	</div>
 
 	<!-- Navbar Content -->
-	<div class="flex my-auto 2xs:ml-auto -2xs:mx-auto">
+	<div class="flex my-auto 2xs:ml-auto -2xs:mx-auto ">
 		<!-- Navbar Menu -->
-		<div class="font-medium text-slate-800 dark:text-slate-200 flex">
-			<h2>UI Components <span class="-lg:hidden">- A collection of my experimentation with building UI components</span></h2>
-		</div>
+		<a href="/" on:click={(event) => scrollToHome(event)}>
+			<div class="font-medium text-slate-800 dark:text-slate-200 flex">
+				<h2>UI Components <span class="-lg:hidden">- A collection of my experimentation with building UI components</span></h2>
+			</div>
+		</a>
 
-		<div class="ml-8 mr-6 border-l border-slate-300 dark:border-slate-500 -md:hidden" />
+		<div class="ml-8 mr-6 border-l border-slate-500 dark:border-slate-500 -md:hidden" />
 
 		<!-- Navbar Utils -->
-		<div class="flex space-x-3 text-slate-500 dark:text-slate-400 -md:hidden">
+		<div class="flex space-x-3 text-slate-500 dark:text-slate-300 -md:hidden">
 			<button
 				class="hover:text-slate-800 dark:hover:text-slate-200"
 				title="Toggle Themes"

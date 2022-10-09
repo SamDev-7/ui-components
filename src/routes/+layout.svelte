@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import { onMount } from 'svelte';
 
     import Navbar from '$lib/site/Navbar.svelte';
     import Footer from '$lib/site/Footer.svelte';
@@ -9,6 +10,8 @@
 	function scrollHandler() {
 		scroll.set(window.scrollY);
 	}
+
+	onMount(() => scrollHandler());
 
 </script>
 
