@@ -16,10 +16,10 @@
 <!-- Cards -->
 <div class="py-16 px-64 grid grid-cols-3 gap-12 xl:-2xl:px-32 xs:-xl:px-16 md:-lg:grid-cols-2 -md:grid-cols-1 2xs:-xs:px-8 -2xs:px-0 -2xs:gap-6 -2xs:divide-y-2 dark:divide-slate-700">
     <!-- CC0 placeholder image by Ryan Klaus -->
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
-    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/button" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
+    <ComponentCard title="Button" description="A button component with a variety of styles and sizes." thumbnail="https://images.pexels.com/photos/13235188/pexels-photo-13235188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" href="/" />
 </div>
